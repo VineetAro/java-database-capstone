@@ -29,7 +29,7 @@ public class Patient {
 
 	@NotNull
 	@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
-	@Size(max = 6)
+	@Size(min = 6)
 	private String password;
 
 	@NotNull
