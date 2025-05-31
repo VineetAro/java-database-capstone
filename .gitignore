@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignore build output
+/target/
+/*.iml
+
+# Ignore accidental folders with colons
+spring-boot:run/
